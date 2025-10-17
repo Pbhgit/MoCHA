@@ -3,5 +3,15 @@
 
 * 2025-7-31 The code is available.
 
-### Getting Started
+## 💪 Getting Started
+
+### Installation
+
+Create a conda environment:
+
+```python
+conda create -n mocha python=3.10
+conda activate mocha
+pip install -e .
+```
 
