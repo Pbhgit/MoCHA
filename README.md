@@ -10,6 +10,8 @@
 Create a conda environment:
 
 ```python
+git clone git@github.com:Pbhgit/MoCHA.git
+cd MoCHA
 conda create -n mocha python=3.10
 conda activate mocha
 pip install -e .
