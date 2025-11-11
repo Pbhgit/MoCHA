@@ -58,11 +58,9 @@ After downloading the datasets and JSON files, you can train the model using the
 We evaluate MoCHA models on multiple benchmarks and many scripts are based on [LLaVA](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md) evaluation settings. We've adapted some of them into multi-GPU evaluation scripts and added evaluation on Mathvista. 
 
 * ScienceQA
-
-  Multi-gpu inference
   
   ```python
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/sqa.sh
+  CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/v1_5/eval/sqa.sh
   ```
 
 * TextVQA
@@ -70,7 +68,7 @@ We evaluate MoCHA models on multiple benchmarks and many scripts are based on [L
   Multi-gpu inference
   
   ```python
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/textvqa.sh
+  CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/v1_5/eval/textvqa.sh
   ```
 
 * POPE
@@ -78,7 +76,7 @@ We evaluate MoCHA models on multiple benchmarks and many scripts are based on [L
   Multi-gpu inference
   
   ```python
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/pope.sh
+  CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/v1_5/eval/pope.sh
   ```
 
 * MME
@@ -86,7 +84,7 @@ We evaluate MoCHA models on multiple benchmarks and many scripts are based on [L
   Multi-gpu inference
 
   ```python
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/mme.sh
+  CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/v1_5/eval/mme.sh
   ```
 
 * GQA
@@ -94,7 +92,7 @@ We evaluate MoCHA models on multiple benchmarks and many scripts are based on [L
   Multi-gpu inference
 
   ```pyhton
-  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/gqa.sh
+  CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/v1_5/eval/gqa.sh
   ```
 
 * MM-Vet
