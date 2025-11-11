@@ -19,7 +19,7 @@ pip install -e .
 
 ### 🚀Dataset Preparation
 
-We train MoCHA on two mainstream LLMs, Phi-2 2.7B and Vicuna-7B, using the [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA) evaluation setting training data. Please update the data paths in the training scripts to match your local directories.
+We train MoCHA on two mainstream LLMs, Phi-2 2.7B and Vicuna-7B, using the [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA) training data. Please update the data paths in the training scripts to match your local directories.
 
 ### 🌋Training
 
