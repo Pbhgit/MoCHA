@@ -5,7 +5,7 @@
 # echo "NCCL_DEBUG=$NCCL_DEBUG, NCCL_DEBUG_SUBSYS=$NCCL_DEBUG_SUBSYS"
 
 # NCCL_DEBUG=INFO NCCL_DEBUG_SUBSYS=ALL NCCL_BLOCKING_WAIT=1 NCCL_LAUNCH_TIMEOUT=3600 \
-deepspeed --include localhost:0,1,2,3\
+deepspeed --include localhost:0,1,2,3,4,5,6,7\
     llava/train/moec_train_mem.py \
     --deepspeed ./scripts/zero2.json \
     --model_name_or_path ./pangyq/models/lmsys-vicuna-7b-v1.5 \
