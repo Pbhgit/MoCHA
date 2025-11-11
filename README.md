@@ -107,11 +107,11 @@ We evaluate MoCHA models on multiple benchmarks and many scripts are based on [L
 
 * MMBench
 
-Single-gpu inference
+  Single-gpu inference
 
-```python
-CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mmbench.sh
-```
+  ```python
+  CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mmbench.sh
+  ```
 
 * MathVista
 
