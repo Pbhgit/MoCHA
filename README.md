@@ -1,5 +1,5 @@
 # MoCHA
-## MoCHA: Advanced Vision-Language Reasoning with MoE Connector and Hierarchical Group Attention
+## [MoCHA: Advanced Vision-Language Reasoning with MoE Connector and Hierarchical Group Attention](https://arxiv.org/abs/2507.22805)
 
 * 2025-7-31 The code is available.
 
