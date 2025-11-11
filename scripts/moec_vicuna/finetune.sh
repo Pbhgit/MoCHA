@@ -3,7 +3,7 @@
 
 export NCCL_TIMEOUT=3600 
 
-deepspeed    --include localhost:0,1,2,3,4,5,6\
+deepspeed    --include localhost:0,1,2,3,4,5,6,7\
     llava/train/moec_train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path ./models/lmsys-vicuna-7b-v1.5 \
